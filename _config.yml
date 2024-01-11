@@ -1,0 +1,12 @@
+host: 0.0.0.0
+
+collections:
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "project"
+    values:
+      layout: "project"

@@ -1,0 +1,160 @@
+@import "header";
+
+$font_stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+$title_font_stack: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif", HelveticaNeue-CondensedBlack;
+
+$heading_color: #E68C1C;
+$accent_color: #E68C1C;
+
+* {
+    box-sizing: border-box;
+    font-family: $font_stack;
+    text-rendering: geometricPrecision;
+}
+
+html {
+    width: 100svw;
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    color: #222; // text color
+    background: #fcfcfc; // background color
+
+    max-width: 900px;
+    width:100%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    font-size: 0.9em; //overall font size
+    margin: 0;
+    min-height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    flex-grow: 1;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 1em;
+    img {
+        width : 100%;
+        margin-bottom: 1em;
+    }
+}
+
+figure.labelled {
+    background: $accent_color;
+    color: white;
+}
+
+a { // Get rid of the blue color of links.
+    color: unset;
+}
+
+h1,h2,h3,h4 {
+    color: $heading_color;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+section.description {
+    width: 200px;
+    flex-grow: 1;
+    padding: 1em;
+}
+
+section.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    flex-wrap: wrap; // flow images to next line on small screens
+    gap: 1em; // gap between adjacent images
+}
+
+article.project {
+    width: 200px;
+    flex-grow: 0;
+
+    h2 {
+        font-size: 1em;
+        margin-top: 0.3em;
+        font-style: italic;
+    }
+
+    img {
+        outline: solid 1px black;
+        transition: outline .1s ease-in-out;
+        width: 100%;
+        aspect-ratio: 1/1;
+    }
+
+    img:hover, img[data-highlight="true"], img:focus {
+        outline-color: white;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+}
+
+section.three-columns {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    > * {
+        width: calc(33% - 0.66em);
+        min-width: 250px;
+    }
+
+    section {
+        border: 1px solid rgb(194, 194, 194);
+        border-radius: 5px;
+        padding-left: 1em;
+        padding-right: 2em;
+        box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.297);
+        ul {
+            padding: 1em;
+            margin: 0;
+        }
+    }
+}
+
+@media 
+    only screen and (max-width: 620px)
+    {  
+    body {
+        padding: 10px;
+    }
+    section.description {
+        width: 100%;
+    }
+    article.project {
+        width: 100%;
+    }
+}
+
+// Light mode, disabled for now
+// @media (prefers-color-scheme: light) {
+//     body, a{
+//         color: #222;
+//         background: #fcfcfc;
+//     }
+// }

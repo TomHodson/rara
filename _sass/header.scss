@@ -11,8 +11,7 @@ header {
     }
 
     h1 {
-        // text-align: right;
-        // width: 100%;
+        margin: 0;
 
     }
     nav {
@@ -21,4 +20,35 @@ header {
         gap: 1em;
     }
 
+}
+
+$rw: 2.5em;
+
+h1.rara {
+    display: flex;
+    gap: 0.2em;
+    svg {
+        width: $rw;
+        height: $rw;
+    }
+}
+
+@media 
+    only screen and (max-width: 620px)
+    {  
+
+    header nav {
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 1em;
+    }
+
+    h1.rara {
+        display: grid;
+        grid-template-columns: $rw $rw;
+        grid-template-rows: $rw $rw;
+        // grid-row: auto auto;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
 }

@@ -23,7 +23,7 @@ body {
     color: #222; // text color
     background: #fcfcfc; // background color
 
-    max-width: 900px;
+    max-width: 1300px;
     width:100%;
     padding-top: 50px;
     padding-left: 50px;
@@ -113,6 +113,18 @@ article.project {
     }
 }
 
+section.side-by-side {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: space-between;
+
+    .card {
+        flex: 550px 0 1;
+    }
+}
+
 section.three-columns {
     display: flex;
     gap: 1em;
@@ -136,6 +148,14 @@ section.three-columns {
         }
     }
 }
+
+@media 
+    only screen and (max-width: 1300px)
+    {  
+        section.side-by-side {
+            justify-content: center;
+        }
+    }
 
 @media 
     only screen and (max-width: 620px)

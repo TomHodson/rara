@@ -3,6 +3,8 @@ title: About
 layout: default
 ---
 ---
+<section class = "side-by-side">
+<section class = "card" markdown=1>
 
 ## What is RARA?
 
@@ -15,7 +17,10 @@ We have recently initiated a weekly community art therapy group for people with 
 Originally R.A.R.A. served to give redundant architects a reason to leave the house, do something creative, brew and drink beer, today it gives anyone the chance to experiment with materials, tools, processes and ideas and break free from the alienation of the 9 to 5.
 
 [You can read a more detailed explanation of R.A.R.A. and its story here.](/history)
+</section>
 
-<figure>
+<figure class = "card">
 {% include insta.html %}
 </figure>
+
+</section>

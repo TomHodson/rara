@@ -121,7 +121,12 @@ section.side-by-side {
     justify-content: space-between;
 
     .card {
-        flex: 550px 0 1;
+        flex: 550px 1 1;
+        overflow: hidden;
+    }
+    iframe {
+        width: 100%;
+        min-height: 600px;
     }
 }
 
@@ -159,15 +164,21 @@ section.three-columns {
 
 @media 
     only screen and (max-width: 620px)
-    {  
+    { 
+
     body {
         padding: 10px;
+        font-size: 0.7em;
     }
     section.description {
         width: 100%;
     }
     article.project {
         width: 100%;
+    }
+
+    section.side-by-side .card {
+        flex-basis: 100vw;
     }
 }
 

@@ -3,6 +3,7 @@ title: Facilities
 layout: default
 ---
 
+{% comment %}
 <section class = "three-columns">
 <figure class = "labelled">
     <img src="/assets/images/workshop.jpg" alt="Workshop">
@@ -40,4 +41,37 @@ Aside from the main making/working facilities above RARA members also benefit fr
 If you are interested in seeing what we have to offer and discussing how you can join, come take a look around!
 
 [Book a tour](https://calendly.com/r-a-r-a/tour)
+{% endcomment %}
 
+
+<section class="facilities-container">
+<section class = "facilities s1">
+<img src="/assets/images/R1.png" class = "top left">
+<p>
+Art Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis erat eget orci eleifend porta. Mauris ultricies ipsum id vulputate aliquam. 
+</p>
+</section>
+
+<section class = "facilities s2">
+<p>
+Art Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis erat eget orci eleifend porta. Mauris ultricies ipsum id vulputate aliquam. 
+</p>
+<img src="/assets/images/A1.png" class = "top right">
+</section>
+
+<section class = "facilities s3">
+<img src="/assets/images/R2.png" class = "bottom left">
+<p>
+Art Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis erat eget orci eleifend porta. Mauris ultricies ipsum id vulputate aliquam. Art Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis erat eget orci eleifend porta. Mauris ultricies ipsum id vulputate aliquam. Art Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis erat eget orci eleifend porta. Mauris ultricies ipsum id vulputate aliquam. 
+</p>
+</section>
+
+<section class = "facilities s4">
+<p>
+Art Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis erat eget orci eleifend porta. Mauris ultricies ipsum id vulputate aliquam. 
+</p>
+<img src="/assets/images/A2.png" class = "bottom right">
+</section>
+
+
+</section>

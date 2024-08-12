@@ -1,0 +1,22 @@
+footer {
+  margin-top: 5em;
+  width: 100%;
+  background: #222;
+  display: flex;
+  justify-content: center;
+
+  section {
+    flex-grow: 1;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1em;
+    margin-top: auto;
+    font-size: 0.8em;
+  }
+
+  img {
+    height: 100px;
+  }
+}

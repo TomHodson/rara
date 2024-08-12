@@ -1,0 +1,16 @@
+.marker {
+  /* The following icon is owned by Stadia Maps. While you maintain an account with us, we grant you royalty-free use of
+     * this image when displayed on our maps.
+     */
+  background-image: url("/assets/images/map_marker.png");
+  background-size: cover;
+  //   width: 27px;
+  height: 42px;
+  cursor: pointer;
+}
+
+#map {
+  width: 80%;
+  aspect-ratio: 1 / 1;
+  margin: auto;
+}

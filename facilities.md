@@ -45,32 +45,44 @@ If you are interested in seeing what we have to offer and discussing how you can
 
 
 <section class="facilities-container">
-<section class = "facilities s1">
-<img src="/assets/images/R1.png" class = "top left">
-<p>
-Art Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis erat eget orci eleifend porta. Mauris ultricies ipsum id vulputate aliquam. 
-</p>
+    <section class = "facilities s1">
+    <img src="/assets/images/R1.png" class = "top left">
+    <section>
+        <h2>Desks</h2>
+        <p>
+        Upstairs we have a co-working space with a mixture of long term rented desks and bookable hot desks. There are also two large tables that can be booked for cutting fabric, binding books or anything else you need the extra space for. There's also a kitchen where members make and share lunch.
+        </p>
+    </section>
 </section>
 
 <section class = "facilities s2">
-<p>
-Art Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis erat eget orci eleifend porta. Mauris ultricies ipsum id vulputate aliquam. 
-</p>
-<img src="/assets/images/A1.png" class = "top right">
+    <section>
+        <h2>Workshop</h2>
+        <p>
+        Downstairs is home to a workshop with two tables that can be booked by the hour. Tools include the standard table saw, band saw, mitre saw, dust extraction, shop vacs. We also have a large format laser cutter and cnc machine.
+        </p>
+    </section>
+    <img src="/assets/images/A1.png" class = "top right">
 </section>
 
 <section class = "facilities s3">
-<img src="/assets/images/R2.png" class = "bottom left">
-<p>
-Art Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis erat eget orci eleifend porta. Mauris ultricies ipsum id vulputate aliquam. Art Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis erat eget orci eleifend porta. Mauris ultricies ipsum id vulputate aliquam. Art Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis erat eget orci eleifend porta. Mauris ultricies ipsum id vulputate aliquam. 
-</p>
+    <img src="/assets/images/R2.png" class = "bottom left">
+    <section>
+        <h2>Ceramics</h2>
+        <p>
+        A dedicated ceramics studio with two wheels and space for hand building. There's an electric kiln on-site with regular bisque and glaze firings.
+        </p>
+    </section>
 </section>
 
 <section class = "facilities s4">
-<p>
-Art Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis erat eget orci eleifend porta. Mauris ultricies ipsum id vulputate aliquam. 
-</p>
-<img src="/assets/images/A2.png" class = "bottom right">
+    <section>
+        <h2>Art?</h2>
+        <p>
+        Upstairs we have a co-working space with a mixture of long term rented desks and bookable hot desks. There are also two large tables that can be booked for cutting fabric, binding books or anything else you need the extra space for.
+        </p>
+    </section>
+    <img src="/assets/images/A2.png" class = "bottom right">
 </section>
 
 

@@ -1,4 +1,6 @@
 @import "header";
+@import "footer";
+@import "map";
 
 $font_stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
   Bitstream Vera Sans Mono, Courier New, monospace, serif;
@@ -24,11 +26,8 @@ html {
 
 body {
   color: #222; // text color
-  background: #fcfcfc; // background color
+  background: white; // background color
   width: 100%;
-  // padding-top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
 
   font-size: 0.9em; //overall font size
   margin: 0;
@@ -39,11 +38,10 @@ body {
   align-items: center;
 }
 header {
-  max-width: 800px;
+  max-width: 1200px;
 }
 
 main {
-  flex-grow: 1;
   width: 100%;
 
   display: flex;
@@ -95,14 +93,16 @@ section.description {
 }
 
 section.side-by-side {
+  max-width: 1200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1em;
   justify-content: space-between;
+  flex-grow: 1;
 
   .card {
-    flex: 550px 1 1;
+    flex: 400px 1 1;
     overflow: hidden;
   }
   iframe {
@@ -137,17 +137,18 @@ section.three-columns {
 
 section.facilities-container {
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   max-width: 800px;
 }
 
 section.facilities {
+  flex: 1 1 300px;
   display: flex;
   border-radius: 1em;
-  margin-bottom: 1em;
-  padding: 1.5em;
+  padding: 1em;
   justify-content: space-between;
+  //   max-width: 500px;
   img {
     max-height: 15em;
     max-width: 50%;
@@ -156,6 +157,7 @@ section.facilities {
 
 .facilities.s1 {
   //   background-color: #fce3e0ff;
+  h2,
   p {
     text-align: right;
   }
@@ -166,6 +168,7 @@ section.facilities {
 }
 
 .facilities.s3 {
+  h2,
   p {
     text-align: right;
   }
